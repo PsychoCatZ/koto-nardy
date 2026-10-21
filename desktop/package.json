@@ -1,0 +1,17 @@
+{
+  "name": "koto-nardy-desktop",
+  "productName": "КотоНарды",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Настольная игра в нарды «КотоНарды» — настольное приложение (Electron)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "node dist.cjs",
+    "dist:linux": "node dist-linux.cjs"
+  },
+  "devDependencies": {
+    "electron": "^37.2.0",
+    "electron-packager": "^17.1.2"
+  }
+}
